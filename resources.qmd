@@ -1,0 +1,12 @@
+---
+title: "Resources"
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-title: " "
+---
+
+### Talks
+
+### Tutorials

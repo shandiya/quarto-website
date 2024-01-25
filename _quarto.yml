@@ -1,0 +1,24 @@
+project:
+  type: website
+
+website:
+  navbar:
+    logo: images/logo_wip.png
+    background: "#ffffff"
+    foreground: "#888888"
+    left:
+      - text: " " 
+        href: index.qmd
+      - text: "projects"
+        href: projects.qmd
+      - text: "publications"
+        href: publications.qmd
+      - text: "resources"
+        href: resources.qmd
+    search: true 
+
+format:
+  html:
+    theme: custom.scss
+    css: styles.css
+    toc: false

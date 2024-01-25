@@ -1,0 +1,40 @@
+---
+title: "Publications"
+format:
+  html:
+    toc: true
+    toc-location: left
+    toc-title: " "
+---
+
+### Peer-reviewed publications
+
+Boysen K, Perkins SL, Hunjan S, Oliver P, Gardner M, **Balasubramaniam S**, J Melville (2022) Diversity and phylogenetic relationships of haemosporidian and hemogregarine parasites in Australian lizards. *Molecular Phylogenetics and Evolution* 167: 107358.
+
+**Balasubramaniam S**, Mulder RA, Sunnucks P, Pavlova A, Melville J (2017) MHC class II β exon 2 variation in pardalotes (Pardalotidae) is shaped by selection, recombination and gene conversion. *Immunogenetics* 69: 101-111.
+
+**Balasubramaniam S**, Bray RD, Mulder RA, Sunnucks P, Pavlova A, Melville J (2016) New data from basal Australian songbird lineages show that complex structure of MHC class II β genes has early evolutionary origins within passerines. *BMC Evolutionary Biology* 16:112.
+
+**Balasubramaniam S**, Mulder RA, Sunnucks P, Pavlova A, Amos JN, Melville J (2013) Prevalence and diversity of avian haematozoa in three species of Australian passerine. *Emu* 113:353-358.
+
+Amos N, **Balasubramaniam S**, Grootendorst L, Harrisson K, Lill A, Mac Nally RC, Pavlova A, Radford JQ, Takeuchi N, Thomson JR, Sunnucks P (2013) Little evidence that condition, stress indicators, sex ratio, or homozygosity are related to landscape or habitat attributes in declining woodland birds. *Journal of Avian Biology* 44:45-54.
+
+**Balasubramaniam S**, Guay P-J (2008) Purple swamphens (*Porphyrio porphyrio*) attempting to prey upon black swan (*Cygnus atratus*) eggs and preying upon a cygnet on an urban lake in Melbourne, Australia. *Wilson Journal of Ornithology* 120:633-635.
+
+### Technical reports
+
+**Balasubramaniam S**, Sumner J (2021) Genetic analysis of captive and wild populations of the Bush Stone-curlew *Burhinus grallarius*. Technical report prepared for DELWP. 29 pp.
+
+**Balasubramaniam S** (2020) Plains-wanderer genetic analysis: A comparison of wild and captive-bred individuals. Technical report prepared for Plains-wanderer National Recovery Team. 19 pp.
+
+**Balasubramaniam S** (2020) Population structure in the Hooded Plover *Thinornis cucullatus*. Technical report prepared for BirdLife Australia. 18 pp.
+
+Rowe K, **Balasubramaniam S** (2020) Plains-wanderer acoustic monitoring: song meter detection space. Technical report prepared for DELWP. 16 pp.
+
+**Balasubramaniam S** (2019) Genetic analysis of the Plains-wanderer *Pedionomus torquatus*. Technical report prepared for Zoos Victoria and Taronga Conservation Society Australia. 19 pp.
+
+### Theses
+
+Balasubramaniam S (2016) Evolution and ecology of major histocompatibility complex (MHC) genes in south-eastern Australian passerines. Doctoral Thesis. School of BioSciences, The University of Melbourne.
+
+Balasubramaniam S (2007) Male incubation effort and extra-pair paternity in the Black Swan (*Cygnus atratus*). Honours Thesis. School of BioSciences, The University of Melbourne.

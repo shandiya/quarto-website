@@ -1,0 +1,51 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+// fonts
+$font-family-monospace: 'Fira Code', monospace;
+$font-family: 'League Spartan', sans-serif;
+$font-family: 'Poiret One', sans-serif;
+$font-family: 'Inter', sans-serif;
+
+// colours
+$toc-color: #bcbcbc;
+$linkcolor: orange;
+$navbar-fg: #999999;	
+$navbar-hl: #222222;
+
+/*-- scss:rules --*/
+
+h1 {
+  font-family: 'Poiret One', sans-serif;
+  color: black;
+  padding-top: 0.3rem;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  color: #222222;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: #444444;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Poiret One', sans-serif;
+  font-size: 1.1rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}

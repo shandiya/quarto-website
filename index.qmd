@@ -1,0 +1,18 @@
+---
+title: Shandiya Balasubramaniam
+image: shandiya.png
+about: 
+  template: jolla
+  image-width: 10em
+  links:
+    - icon: github
+      href: https://github.com/shandiya
+    - icon: twitter
+      href: https://twitter.com/ShandiyaB
+    - icon: linkedin
+      href: https://www.linkedin.com/in/shandiya/ 
+    - icon: envelope
+      href: mailto:shandiya.balasubramaniam@csiro.au
+---
+
+I’m a biodiversity data scientist in Melbourne, Australia. I currently work as the Decision Support Lead at the Atlas of Living Australia, where I focus on streamlining reproducible pathways for accessing and analysing open data. When I’m not coding for work or looking at birds, I enjoy making art in R.
