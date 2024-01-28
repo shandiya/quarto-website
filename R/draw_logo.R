@@ -95,4 +95,3 @@ draw_s <- curve_right |>
 
 ggsave("images/logo_wip.png", draw_s, width = 3, height = 3, units = "in")
 
-

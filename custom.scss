@@ -12,29 +12,31 @@ $font-family: 'Poiret One', sans-serif;
 $font-family: 'Inter', sans-serif;
 
 // colours
-$toc-color: #bcbcbc;
-$linkcolor: orange;
-$navbar-fg: #999999;	
-$navbar-hl: #222222;
+$toc-color: #cca171;
+$toc-active-border:	#fffbf7;
+$toc-inactive-border: #fffbf7;
+$navbar-fg: #8c5c2d;	
+$navbar-hl: #cca171;
+$body-bg: #fffbf7;
+$link-color: #cca171;
 
 /*-- scss:rules --*/
 
 h1 {
   font-family: 'Poiret One', sans-serif;
-  color: black;
+  color: #5e7789;
   padding-top: 0.3rem;
 }
 
 h3 {
-  font-family: 'Inter', sans-serif;
-  color: #222222;
-  font-weight: 400;
+  font-family: 'Poiret One', sans-serif;
+  color: #8c5c2d;
   font-size: 1.2rem;
 }
 
 p {
   font-family: 'Inter', sans-serif;
-  color: #444444;
+  color: #1e394a;
   font-weight: 300;
   font-size: 0.9rem;
 }
@@ -46,6 +48,23 @@ p {
   font-size: 1.1rem;
 }
 
+.sidebar nav[role=doc-toc] ul>li>a.active{
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;  
+}
+
+sidebar nav[role=doc-toc] {
+  font-family: 'Inter', sans-serif;
+}
+
 a:hover {
   text-decoration: underline;
+}
+
+.monosp {
+  font-family: 'Fira Code', monospace;
+}
+
+.transparent-card {
+  background-color: transparent !important;
 }

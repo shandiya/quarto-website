@@ -1,9 +1,9 @@
 ---
 title: Shandiya Balasubramaniam
-image: shandiya.png
+image: images/shandiya-circles.png
 about: 
   template: jolla
-  image-width: 10em
+  image-width: 15em
   links:
     - icon: github
       href: https://github.com/shandiya

@@ -4,8 +4,7 @@ project:
 website:
   navbar:
     logo: images/logo_wip.png
-    background: "#ffffff"
-    foreground: "#888888"
+    background: "#fffbf7"
     left:
       - text: " " 
         href: index.qmd
@@ -16,6 +15,7 @@ website:
       - text: "resources"
         href: resources.qmd
     search: true 
+    reader-mode: true
 
 format:
   html:
