@@ -1,12 +1,70 @@
 ---
 title: "Resources"
-format:
-  html:
-    toc: true
-    toc-location: left
-    toc-title: " "
 ---
+
+```{r}
+#| echo: false
+source("R/add_cards.R")
+```
 
 ### Talks
 
+Source code and slide decks from recent talks, built using Quarto. Pressing the `S` key brings up speaker notes if you're after the full experience. 
+
+::: {.grid}
+```{r}
+#| echo: false
+#| results: asis
+
+# esa 2023
+add_card_talks(
+  img = "images/esa2023.gif",
+  title = "EcoAssets: streamlining access to data from Australian environmental research infrastructures", 
+  location = "Ecological Society of Australia 2023", 
+  source_code_url = "https://github.com/shandiya/esa-2023",
+  slide_deck_url = "https://shandiya.quarto.pub/esa2023/#/title"
+)
+
+# # vicbiocon 2023
+add_card_talks(
+  img = "images/vicbiocon2023.png",
+  title = "Continental-scale biodiversity data assessment using the Atlas of Living Australia",
+  location = "Victorian Biodiversity Conference 2023",
+  source_code_url = "https://github.com/shandiya/VicBioCon2023",
+  slide_deck_url = "https://shandiya.quarto.pub/vicbiocon2023/#/title"
+)
+
+```
+:::
+
 ### Tutorials
+
+Posts covering topics on data cleaning, analysis, and visualisation, with a focus on biodiversity data. 
+
+::: {.grid}
+```{r}
+#| echo: false
+#| results: asis
+
+# hex
+add_card_tutorials(
+  img = "images/hex.png",
+  text = "Combining multiple species distributions on one map with hexagons and points",
+  url = "https://labs.ala.org.au/posts/2024-01-25_hex_point_maps/index.html"
+)
+
+# boxplots
+add_card_tutorials(
+  img = "images/raincloud.png",
+  text = "Alternatives to box plots: Using beeswarm and raincloud plots to summarise ecological data",
+  url = "https://labs.ala.org.au/posts/2023-08-28_alternatives-to-box-plots/"
+)
+
+# choropleth
+add_card_tutorials(
+  img = "images/choropleth.png",
+  text = "Multiple colour scales in choropleth maps with [ggnewscale]{.monosp}", 
+  url = "https://labs.ala.org.au/posts/2022-05-23-ggnewscale/"
+)
+```
+:::

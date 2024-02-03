@@ -2,33 +2,10 @@
 title: "Projects"
 ---
 
-<!-- code here is heavily adapted from source code for Dani Navarro's personal website -->
-
 ```{r}
 #| echo: false
-add_card <- function(img, title, text, url) {
-  lines <- c(
-    '<div class="g-col-12 g-col-md-4">',
-    '<div class="card h-100 transparent-card">',
-    paste0(
-      '<a href="', 
-      url, 
-      '"><img src="', 
-      img, 
-      '"',
-      'class="card-img-top"></a>'
-    ),
-    '<div class="card-body">',
-    paste0('<h3 class="card-title">', title, '</h3>'),
-    paste0('<p class="card-text">', text, '</p>'),
-    '</div>',
-    '</div>',
-    '</div>'
-  )
-  cat(lines, sep="\n")
-}
+source("R/add_cards.R")
 ```
-
 
 ::: {.grid}
 ```{r}
@@ -36,7 +13,7 @@ add_card <- function(img, title, text, url) {
 #| results: asis
 
 # feathers
-add_card(
+add_card_projects(
   img = "images/dove.png",
   title = "feathers", 
   text = "[feathers]{.monosp} is an R package that contains colour palettes inspired by the plumage of Australian birds. For species exhibiting sexual dimorphism, I have used female colours.",
@@ -44,7 +21,7 @@ add_card(
 )
 
 # variations on a theme
-add_card(
+add_card_projects(
   img = "images/bauhaus.png",
   title = "Variations on a theme", 
   text = "Sometimes I make art in R ([rtistry]{.monosp}). These projects are spaces for me to explore a single idea and experiment with code.",
@@ -52,15 +29,15 @@ add_card(
 )
 
 # victual verses
-add_card(
+add_card_projects(
   img = "images/verse.png",
   title = "VictualVerses", 
-  text = "A Shiny app that generates three-line verses in the style of haiku. A random word is chosen from \"Mrs. Beeton's Dictionary of Every-Day Cookery\", and the following 17 syllables are output in lines of 5-7-5 syllables.",
+  text = "A Shiny app that generates three-line verses in the style of haiku. A random word is chosen from \"Mrs. Beeton's Dictionary of Every-Day Cookery\", and the following 17 syllables are output in lines of 5-7-5(ish) syllables.",
   url = "https://shandiya.shinyapps.io/victualverses/"
 )
 
 # manky parrots
-add_card(
+add_card_projects(
   img = "images/lorikeet.png",
   title = "Manky Parrots", 
   text = "Manky Parrots is a citizen science project that maps the incidence of psittacine beak and feather disease (PBFD) in Australia to understand the spread of the disease in the wild.",
@@ -68,13 +45,11 @@ add_card(
 )
    
 # misc
-add_card(
+add_card_projects(
   img = "images/volcanoes.png",
   title = "misc.", 
   text = "Links to repositories where I've dabbled in [this](https://github.com/shandiya/project_euler), [that](https://github.com/shandiya/advent-of-code), and [the other](https://github.com/shandiya/genuary2021). Sometimes they involve [maps](https://github.com/shandiya/30DayMapChallenge), [sometimes not](https://github.com/shandiya/TidyTuesday).",
   url = "https://github.com/shandiya/TidyTuesday/tree/master/2020-3-volcanoes"
 )
-
 ```
 :::
-
