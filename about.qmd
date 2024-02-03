@@ -1,0 +1,37 @@
+---
+title: "[Shandiya Balasubramaniam]{.title-gold}"
+image: images/shandiya.png
+about:
+  template: broadside
+  image-shape: round
+  links:
+    - icon: github
+      href: https://github.com/shandiya
+    - icon: twitter
+      href: https://twitter.com/ShandiyaB
+    - icon: linkedin
+      href: https://www.linkedin.com/in/shandiya/ 
+    - icon: envelope
+      href: mailto:shandiya.balasubramaniam@csiro.au
+---
+
+As the Decision Support Program Lead at the Atlas of Living Australia, my work focuses on streamlining reproducible pathways for accessing and analysing open data. When I’m not coding for work or looking at birds, I enjoy making art in R. Once upon a time I was an academic. 
+
+### Experience
+
+**Board Observer**, The Observership Program (2024)  
+
+**Data Analyst**, Atlas of Living Australia (2022-present)   
+
+**Senior Geospatial Data Analyst**, Environment Protection Authority Victoria (2021)  
+
+**Associate Data Analyst**, Environment Protection Authority Victoria (2020)  
+
+**Ian Potter Biodiversity Research Fellow**, Museums Victoria (2016-2020)
+
+### Education
+
+**PhD**, University of Melbourne (2016)  
+*Thesis: Evolution and ecology of major histocompatibility complex (MHC) genes in south-eastern Australian passerines*  
+
+**BSc (Hons)**, University of Melbourne (2007)
