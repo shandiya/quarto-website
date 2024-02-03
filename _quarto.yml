@@ -3,11 +3,14 @@ project:
 
 website:
   navbar:
-    logo: images/logo_wip.png
+    logo: images/logo.png
+    favicon: images/logo.png 
     background: "#fffbf7"
     left:
       - text: " " 
         href: index.qmd
+      - text: "about"
+        href: about.qmd
       - text: "projects"
         href: projects.qmd
       - text: "publications"

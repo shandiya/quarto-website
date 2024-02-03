@@ -28,6 +28,12 @@ h1 {
   padding-top: 0.3rem;
 }
 
+.title-gold {
+  font-family: 'Poiret One', sans-serif;
+  color: #cca171;
+  font-size: 2.5rem;
+}
+
 h3 {
   font-family: 'Poiret One', sans-serif;
   color: #8c5c2d;
@@ -45,7 +51,16 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
   font-family: 'Poiret One', sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+}
+
+.navbar-brand>img {
+    max-height: 50px;
+    width: auto;
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
 }
 
 .sidebar nav[role=doc-toc] ul>li>a.active{
@@ -65,6 +80,21 @@ a:hover {
   font-family: 'Fira Code', monospace;
 }
 
+.thin {
+  font-family: 'Inter', sans-serif;
+  color: #1e394a;
+  font-weight: 200;
+  font-size: 0.8rem;
+}
+
+.bullet-color {
+  color: #cca171; 
+}
+
 .transparent-card {
   background-color: transparent !important;
+}
+
+ .about-links {
+   font-size: 1.5rem;
 }
