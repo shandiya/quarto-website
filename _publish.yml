@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: eebc67f5-6c90-42c3-a9d0-ff1a72a0c273
+      url: 'https://inspiring-lily-4b6fbc.netlify.app'
