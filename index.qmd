@@ -1,5 +1,15 @@
----
-title: "Shandiya Balasubramaniam"
----
+<style>
+    body {
+        background-image: url('images/title.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+</style>
 
-Biodiversity Data Scientist
+
+::: {.title-container}
+  [Shandiya Balasubramaniam]{.title-right}  
+  [Biodiversity Data Scientist]{.subtitle-right}
+:::
+

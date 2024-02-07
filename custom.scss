@@ -19,6 +19,7 @@ $navbar-fg: #8c5c2d;
 $navbar-hl: #cca171;
 $body-bg: #fffbf7;
 $link-color: #cca171;
+$text-shadow-color: rgba(red(#fffbf7), green(#fffbf7), blue(#fffbf7), 0.5);
 
 /*-- scss:rules --*/
 
@@ -32,6 +33,29 @@ h1 {
   font-family: 'Poiret One', sans-serif;
   color: #cca171;
   font-size: 2.5rem;
+}
+
+
+
+.title-right {
+  font-family: 'Poiret One', sans-serif;
+  color: #013a63;
+  font-size: 2.4rem;
+  text-shadow: 1px 1px 4px $text-shadow-color;
+}
+
+.subtitle-right {
+  font-family: 'Poiret One', sans-serif;
+  color: #013a63;
+  font-size: 2.2rem;
+  text-shadow: 1px 1px 4px $text-shadow-color;
+}
+
+.title-container {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 2.5rem;
+  text-align: right;
 }
 
 h3 {
@@ -49,7 +73,7 @@ p {
 
 .navbar {
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.2rem;
   font-family: 'Poiret One', sans-serif;
   font-size: 1.2rem;
 }
