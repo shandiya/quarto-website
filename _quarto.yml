@@ -4,7 +4,7 @@ project:
 website:
   navbar:
     logo: images/logo.png
-    favicon: images/logo.png 
+    favicon: images/favicon.ico
     background: "#fffbf7"
     left:
       - text: " " 
