@@ -25,3 +25,6 @@ format:
     theme: custom.scss
     css: styles.css
     toc: false
+    
+execute:
+  freeze: auto    

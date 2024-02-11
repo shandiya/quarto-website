@@ -1,0 +1,15 @@
+{
+  "hash": "62e26b6e0fc5f77d5d9c227bc8260a56",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Projects\"\n---\n\n::: {.cell}\n\n:::\n\n\n::: {.grid}\n\n<div class=\"g-col-12 g-col-md-4\">\n<div class=\"card h-100 transparent-card\">\n<a href=\"https://github.com/shandiya/feathers\"><img src=\"images/dove.png\"class=\"card-img-top\"></a>\n<div class=\"card-body\">\n<h3 class=\"card-title\">feathers</h3>\n<p class=\"card-text\">[feathers]{.monosp} is an R package that contains colour palettes inspired by the plumage of Australian birds. For species exhibiting sexual dimorphism, I have used female colours.</p>\n</div>\n</div>\n</div>\n<div class=\"g-col-12 g-col-md-4\">\n<div class=\"card h-100 transparent-card\">\n<a href=\"https://github.com/shandiya/variations-on-a-theme\"><img src=\"images/bauhaus.png\"class=\"card-img-top\"></a>\n<div class=\"card-body\">\n<h3 class=\"card-title\">Variations on a theme</h3>\n<p class=\"card-text\">Sometimes I make art in R ([rtistry]{.monosp}). These projects are spaces for me to explore a single idea and experiment with code.</p>\n</div>\n</div>\n</div>\n<div class=\"g-col-12 g-col-md-4\">\n<div class=\"card h-100 transparent-card\">\n<a href=\"https://shandiya.shinyapps.io/victualverses/\"><img src=\"images/verse.png\"class=\"card-img-top\"></a>\n<div class=\"card-body\">\n<h3 class=\"card-title\">VictualVerses</h3>\n<p class=\"card-text\">A Shiny app that generates three-line verses in the style of haiku. A random word is chosen from \"Mrs. Beeton's Dictionary of Every-Day Cookery\", and the following 17 syllables are output in lines of 5-7-5(ish) syllables.</p>\n</div>\n</div>\n</div>\n<div class=\"g-col-12 g-col-md-4\">\n<div class=\"card h-100 transparent-card\">\n<a href=\"https://biocollect.ala.org.au/acsa/project/index/71330a55-a91a-4456-90b7-9de7bd8ac08d\"><img src=\"images/lorikeet.png\"class=\"card-img-top\"></a>\n<div class=\"card-body\">\n<h3 class=\"card-title\">Manky Parrots</h3>\n<p class=\"card-text\">Manky Parrots is a citizen science project that maps the incidence of psittacine beak and feather disease (PBFD) in Australia to understand the spread of the disease in the wild.</p>\n</div>\n</div>\n</div>\n<div class=\"g-col-12 g-col-md-4\">\n<div class=\"card h-100 transparent-card\">\n<a href=\"https://github.com/shandiya/TidyTuesday/tree/master/2020-3-volcanoes\"><img src=\"images/volcanoes.png\"class=\"card-img-top\"></a>\n<div class=\"card-body\">\n<h3 class=\"card-title\">misc.</h3>\n<p class=\"card-text\">Links to repositories where I've dabbled in [this](https://github.com/shandiya/project_euler), [that](https://github.com/shandiya/advent-of-code), and [the other](https://github.com/shandiya/genuary2021). Sometimes they involve [maps](https://github.com/shandiya/30DayMapChallenge), [sometimes not](https://github.com/shandiya/TidyTuesday).</p>\n</div>\n</div>\n</div>\n\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
