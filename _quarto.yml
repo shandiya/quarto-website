@@ -2,9 +2,9 @@ project:
   type: website
 
 website:
+  favicon: images/favicon.ico
   navbar:
     logo: images/logo.png
-    favicon: images/favicon.ico
     background: "#fffbf7"
     left:
       - text: " " 
