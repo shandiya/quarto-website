@@ -1,5 +1,5 @@
 [[redirects]]
   from = "https://shandiya.netlify.app"
   to = "https://shandiya.com"
-  status = 301
+  status = 200
   force = true
