@@ -1,4 +1,4 @@
-<img src="images/readme.png" align="left" style="margin: 0px 30px 30px 0px;" width=200/>
+<img src="images/readme.png" align="right" style="margin: 0px 30px 30px 0px;" width=200/>
 
 # Shandiya Balasubramaniam
 
