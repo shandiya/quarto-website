@@ -2,6 +2,4 @@
   netlify:
     - id: eebc67f5-6c90-42c3-a9d0-ff1a72a0c273
       url: 'https://shandiya.com'
-  quarto-pub:
-    - id: 2199dc29-5a39-4c5e-9130-3016217e570c
-      url: 'https://shandiya.quarto.pub/quarto-website'
+ 
