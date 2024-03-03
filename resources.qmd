@@ -25,13 +25,22 @@ add_card_talks(
   slide_deck_url = "https://shandiya.quarto.pub/esa2023/#/title"
 )
 
-# # vicbiocon 2023
+# vicbiocon 2023
 add_card_talks(
   img = "images/vicbiocon2023.png",
   title = "Continental-scale biodiversity data assessment using the Atlas of Living Australia",
   location = "Victorian Biodiversity Conference 2023",
   source_code_url = "https://github.com/shandiya/VicBioCon2023",
   slide_deck_url = "https://shandiya.quarto.pub/vicbiocon2023/#/title"
+)
+
+# gbif data use club
+add_card_talks(
+  img = "images/datauseclub2024.png",
+  title = "Biosecurity Alerts",
+  location = "GBIF Data Use Club 2024",
+  source_code_url = "https://github.com/shandiya/DataUseClub2024",
+  slide_deck_url = "https://shandiya.quarto.pub/datauseclub2024/#/title"
 )
 
 ```
