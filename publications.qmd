@@ -9,17 +9,19 @@ format:
 
 ### Peer-reviewed publications
 
-Boysen K, Perkins SL, Hunjan S, Oliver P, Gardner M, **Balasubramaniam S**, J Melville (2022) Diversity and phylogenetic relationships of haemosporidian and hemogregarine parasites in Australian lizards. *Molecular Phylogenetics and Evolution* 167: 107358.
+Roger E, Turley A, Waite C, **Balasubramaniam S**, Slatyer C, Pearce JA (2024) Citizen science delivers high-value biosecurity surveillance and reporting capability. *Wildlife Research* 51: WR24046. doi: [10.1071/WR24046](https://doi.org/10.1071/WR24046)
 
-**Balasubramaniam S**, Mulder RA, Sunnucks P, Pavlova A, Melville J (2017) MHC class II β exon 2 variation in pardalotes (Pardalotidae) is shaped by selection, recombination and gene conversion. *Immunogenetics* 69: 101-111.
+Boysen K, Perkins SL, Hunjan S, Oliver P, Gardner M, **Balasubramaniam S**, J Melville (2022) Diversity and phylogenetic relationships of haemosporidian and hemogregarine parasites in Australian lizards. *Molecular Phylogenetics and Evolution* 167: 107358. doi: [10.1016/j.ympev.2021.107358](https://doi.org/10.1016/j.ympev.2021.107358)
 
-**Balasubramaniam S**, Bray RD, Mulder RA, Sunnucks P, Pavlova A, Melville J (2016) New data from basal Australian songbird lineages show that complex structure of MHC class II β genes has early evolutionary origins within passerines. *BMC Evolutionary Biology* 16:112.
+**Balasubramaniam S**, Mulder RA, Sunnucks P, Pavlova A, Melville J (2017) MHC class II β exon 2 variation in pardalotes (Pardalotidae) is shaped by selection, recombination and gene conversion. *Immunogenetics* 69: 101-111. doi: [10.1007/s00251-016-0953-7](https://doi.org/10.1007/s00251-016-0953-7)
 
-**Balasubramaniam S**, Mulder RA, Sunnucks P, Pavlova A, Amos JN, Melville J (2013) Prevalence and diversity of avian haematozoa in three species of Australian passerine. *Emu* 113:353-358.
+**Balasubramaniam S**, Bray RD, Mulder RA, Sunnucks P, Pavlova A, Melville J (2016) New data from basal Australian songbird lineages show that complex structure of MHC class II β genes has early evolutionary origins within passerines. *BMC Evolutionary Biology* 16:112. doi: [10.1186/s12862-016-0681-5](https://doi.org/10.1186/s12862-016-0681-5)
 
-Amos N, **Balasubramaniam S**, Grootendorst L, Harrisson K, Lill A, Mac Nally RC, Pavlova A, Radford JQ, Takeuchi N, Thomson JR, Sunnucks P (2013) Little evidence that condition, stress indicators, sex ratio, or homozygosity are related to landscape or habitat attributes in declining woodland birds. *Journal of Avian Biology* 44:45-54.
+**Balasubramaniam S**, Mulder RA, Sunnucks P, Pavlova A, Amos JN, Melville J (2013) Prevalence and diversity of avian haematozoa in three species of Australian passerine. *Emu* 113:353-358. doi: [10.1071/MU13012](https://doi.org/10.1071/MU13012)
 
-**Balasubramaniam S**, Guay P-J (2008) Purple swamphens (*Porphyrio porphyrio*) attempting to prey upon black swan (*Cygnus atratus*) eggs and preying upon a cygnet on an urban lake in Melbourne, Australia. *Wilson Journal of Ornithology* 120:633-635.
+Amos N, **Balasubramaniam S**, Grootendorst L, Harrisson K, Lill A, Mac Nally RC, Pavlova A, Radford JQ, Takeuchi N, Thomson JR, Sunnucks P (2013) Little evidence that condition, stress indicators, sex ratio, or homozygosity are related to landscape or habitat attributes in declining woodland birds. *Journal of Avian Biology* 44:45-54. doi: [10.1111/j.1600-048X.2012.05746.x](https://doi.org/10.1111/j.1600-048X.2012.05746.x)
+
+**Balasubramaniam S**, Guay P-J (2008) Purple swamphens (*Porphyrio porphyrio*) attempting to prey upon black swan (*Cygnus atratus*) eggs and preying upon a cygnet on an urban lake in Melbourne, Australia. *Wilson Journal of Ornithology* 120:633-635. doi: [10.1676/07-150.1](https://doi.org/10.1676/07-150.1)
 
 ### Technical reports
 
