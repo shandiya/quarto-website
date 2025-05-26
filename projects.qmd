@@ -51,5 +51,14 @@ add_card_projects(
   text = "Links to repositories where I've dabbled in [this](https://github.com/shandiya/project_euler), [that](https://github.com/shandiya/advent-of-code), and [the other](https://github.com/shandiya/genuary2021). Sometimes they involve [maps](https://github.com/shandiya/30DayMapChallenge), [sometimes not](https://github.com/shandiya/TidyTuesday).",
   url = "https://github.com/shandiya/TidyTuesday/tree/master/2020-3-volcanoes"
 )
+
+# koel
+add_card_projects(
+  img = "images/koel.png",
+  title = "koel", 
+  text = "[koel]{.monosp} contains a set of functions that facilitate the process of retrieving and summarising biodiversity data within spatial and temporal constraints, and emailing these data as a summary table.",
+  url = "https://github.com/AtlasOfLivingAustralia/koel"
+)
+
 ```
 :::
