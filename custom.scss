@@ -18,10 +18,10 @@ $font-family: 'Inter', sans-serif;
 $toc-color: #cca171;
 $toc-active-border:	#fffbf7;
 $toc-inactive-border: #fffbf7;
-$navbar-fg: #8c5c2d;	
-$navbar-hl: #cca171;
+$navbar-fg: olivedrab;	
+$navbar-hl: #ae027e;
 $body-bg: #fffbf7;
-$link-color: #cca171;
+$link-color: #ababab;
 $text-shadow-color: rgba(red(#fffbf7), green(#fffbf7), blue(#fffbf7), 0.5);
 
 /*-- scss:rules --*/
@@ -99,10 +99,6 @@ p {
 
 sidebar nav[role=doc-toc] {
   font-family: 'Inter', sans-serif;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 .monosp {
