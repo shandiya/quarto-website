@@ -4,24 +4,15 @@ image: images/shandiya.png
 about:
   template: broadside
   image-shape: round
-  links:
-    - icon: github
-      href: https://github.com/shandiya
-    - icon: twitter
-      href: https://twitter.com/ShandiyaB
-    - icon: linkedin
-      href: https://www.linkedin.com/in/shandiya/ 
-    - icon: envelope
-      href: mailto:shandiya.balasubramaniam@csiro.au
 ---
 
-As the Decision Support Program Lead at the Atlas of Living Australia, my work focuses on streamlining reproducible pathways for accessing and analysing open data. When I’m not coding for work or looking at birds, I enjoy making art in R. Once upon a time I was an academic. 
+In my role as Decision Support Program Lead at the Atlas of Living Australia, my work focuses on streamlining reproducible pathways for accessing and analysing open data. When I’m not coding for work or looking at birds, I enjoy making art in R. Once upon a time I was an academic. 
 
 ### Experience
 
-**Board Observer**, The Observership Program (2024)  
+**Decision Suport Lead & Data Analyst**, Atlas of Living Australia, CSIRO (2022-present)   
 
-**Data Analyst**, Atlas of Living Australia (2022-present)   
+**Board Observer**, The Observership Program (2024)  
 
 **Senior Geospatial Data Analyst**, Environment Protection Authority Victoria (2021)  
 
@@ -32,6 +23,5 @@ As the Decision Support Program Lead at the Atlas of Living Australia, my work f
 ### Education
 
 **PhD**, University of Melbourne (2016)  
-*Thesis: Evolution and ecology of major histocompatibility complex (MHC) genes in south-eastern Australian passerines*  
 
 **BSc (Hons)**, University of Melbourne (2007)
