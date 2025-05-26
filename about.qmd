@@ -1,5 +1,5 @@
 ---
-title: "[Shandiya Balasubramaniam]{.title-gold}"
+title: "Shandiya Balasubramaniam"
 image: images/shandiya.png
 about:
   template: broadside
