@@ -38,7 +38,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-70d37b45c5086134dc26dbb10e888fc0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-17597f3579f3283e05258fdb1896f249.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-4104fa6f556026379faa5ecc93848b28.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-3.0.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -131,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
   </div>
 </header><main class="content" id="quarto-document-content">
-<p>In my role as Decision Support Program Lead at the Atlas of Living Australia, my work focuses on streamlining reproducible pathways for accessing and analysing open data. When I’m not coding for work or looking at birds, I enjoy making art in R. Once upon a time I was an academic.</p>
+<p>I’m a biodiversity data scientist with a background in evolutionary ecology and conservation biology. In my current role as Decision Support Program Lead at the Atlas of Living Australia, I focus on streamlining reproducible workflows for accessing and analysing open biodiversity data. When I’m not coding or birdwatching, I enjoy creating art in R.</p>
 <section id="experience" class="level3">
 <h3 data-anchor-id="experience">Experience</h3>
 <p><strong>Decision Suport Lead &amp; Data Analyst</strong>, Atlas of Living Australia, CSIRO (2022-present)</p>
@@ -155,8 +156,7 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text"></span>
   </a>
   <a href="https://bsky.app/profile/shandiya.bsky.social" class="about-link" rel="" target="">
-    <i class="bi bi-bluesky"></i>
-     <span class="about-link-text"></span>
+     <span class="about-link-text"><iconify-icon role="img" inline="" icon="fa6-brands:bluesky" aria-label="Icon bluesky from fa6-brands Iconify.design set." title="Icon bluesky from fa6-brands Iconify.design set."></iconify-icon></span>
   </a>
   <a href="https://www.linkedin.com/in/shandiya/" class="about-link" rel="" target="">
     <i class="bi bi-linkedin"></i>
@@ -252,7 +252,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/shandiya\.com");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

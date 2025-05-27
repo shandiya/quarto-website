@@ -2,20 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
-
 
 // fonts
 $font-family-monospace: 'Fira Code', monospace;
-$font-family: 'League Spartan', sans-serif;
-$font-family: 'Kumbh Sans', sans-serif;
 $font-family: 'Poiret One', sans-serif;
 $font-family: 'Inter', sans-serif;
 
 // colours
-$toc-color: #ae027e;
+$toc-color: #ababab;
 $toc-active-border:	#fffbf7;
 $toc-inactive-border: #fffbf7;
 $navbar-fg: olivedrab;	
@@ -30,12 +25,6 @@ h1 {
   font-family: 'Poiret One', sans-serif;
   color: #333333;
   padding-top: 0.3rem;
-}
-
-.title-gold {
-  font-family: 'Poiret One', sans-serif;
-  color: #cca171;
-  font-size: 2.5rem;
 }
 
 .title-transp {
@@ -94,11 +83,7 @@ p {
 
 .sidebar nav[role=doc-toc] ul>li>a.active{
   font-family: 'Inter', sans-serif;
-  font-weight: 500;  
-}
-
-sidebar nav[role=doc-toc] {
-  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
 .monosp {
@@ -120,6 +105,6 @@ sidebar nav[role=doc-toc] {
   background-color: transparent !important;
 }
 
- .about-links {
-   font-size: 1.5rem;
+.about-links {
+  font-size: 1.5rem;
 }
