@@ -1,4 +1,3 @@
-
 library(arrow)
 library(dplyr)
 library(purrr)
