@@ -24,8 +24,6 @@ website:
         href: https://bsky.app/profile/shandiya.bsky.social
       - icon: linkedin
         href: https://www.linkedin.com/in/shandiya/ 
-      - icon: envelope
-        href: mailto:shandiya.balasubramaniam@csiro.au
     search: true
     reader-mode: true
 
