@@ -3,15 +3,6 @@ title: "Shandiya Balasubramaniam"
 image: images/shandiya.png
 about:
   template: broadside
-  links:
-    - icon: github
-      href: https://github.com/shandiya
-    - text: "{{< iconify fa6-brands:bluesky >}}"
-      href: https://bsky.app/profile/shandiya.bsky.social
-    - icon: linkedin
-      href: https://www.linkedin.com/in/shandiya/ 
-    - icon: envelope
-      href: mailto:shandiya.balasubramaniam@csiro.au
 ---
 
 I’m a biodiversity data scientist with a background in evolutionary ecology and conservation biology. In my current role as Decision Support Program Lead at the Atlas of Living Australia, I focus on streamlining reproducible workflows for accessing and analysing open biodiversity data. When I’m not coding or birdwatching, I enjoy creating art in R.

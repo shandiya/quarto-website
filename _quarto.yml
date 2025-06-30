@@ -17,7 +17,16 @@ website:
         href: publications.qmd
       - text: "resources"
         href: resources.qmd
-    search: true 
+    right:
+      - icon: github
+        href: https://github.com/shandiya
+      - text: "{{< iconify fa6-brands:bluesky >}}"
+        href: https://bsky.app/profile/shandiya.bsky.social
+      - icon: linkedin
+        href: https://www.linkedin.com/in/shandiya/ 
+      - icon: envelope
+        href: mailto:shandiya.balasubramaniam@csiro.au
+    search: true
     reader-mode: true
 
 format:
