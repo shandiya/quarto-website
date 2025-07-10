@@ -7,6 +7,49 @@ library(ggplot2)
 library(ggpattern)
 library(ggnewscale)
 
+# new logo --------
+# for experimenting with different shapes
+
+draw_logo <- function() {
+  
+  full_grid <- expand.grid(x = 1:10, y = 1:10)
+  n_points <- sample(6:15, 1)
+  rows <- sample(1:nrow(full_grid), n_points, replace = FALSE)
+  row_id <- paste(rows, collapse = ", ")
+  subset_grid <- full_grid[rows,]
+  
+  ggplot() +
+    geom_point(data = rbind(head(subset_grid,1), tail(subset_grid,1)), 
+               aes(x, y),
+               size = 0.7) +
+    geom_path(data = subset_grid, 
+              aes(x, y)) +
+    labs(caption = glue::glue("{row_id}")) +
+    coord_equal() + 
+    theme_void()
+  
+}
+
+draw_logo()
+
+# butterfly logo
+full_grid <- expand.grid(x = 1:10, y = 1:10)
+rows <- c(5, 55, 51, 42, 40, 93, 24, 41, 62, 24, 36, 14)
+subset_grid <- full_grid[rows,]
+
+ggplot() +
+  geom_point(data = rbind(head(subset_grid,1), tail(subset_grid,1)), 
+             aes(x, y),
+             size = 0.7, 
+             colour = "#f5c654") +
+  geom_path(data = subset_grid, 
+            aes(x, y),
+            colour = "#f5c654") +
+  coord_equal() + 
+  theme_void()
+
+ggsave("images/butterfly_logo.png", width = 3, height = 3, units = "in")
+
 # logo ------
 # modified from bauhaus.R in variations on a theme
 
