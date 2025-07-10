@@ -4,7 +4,7 @@ project:
 website:
   favicon: images/favicon.ico
   navbar:
-    logo: images/logo.png
+    logo: images/butterfly_logo.png
     background: "#fffbf7"
     left:
       - text: " " 
