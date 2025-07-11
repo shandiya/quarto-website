@@ -40,10 +40,10 @@ subset_grid <- full_grid[rows,]
 ggplot() +
   geom_point(data = rbind(head(subset_grid,1), tail(subset_grid,1)), 
              aes(x, y),
-             size = 0.7, 
              colour = "#f5c654") +
   geom_path(data = subset_grid, 
-            aes(x, y),
+            aes(x, y), 
+            lwd = 1.2, 
             colour = "#f5c654") +
   coord_equal() + 
   theme_void()
