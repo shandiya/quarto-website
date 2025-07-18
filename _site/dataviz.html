@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Shandiya Balasubramaniam</title>
+<title>Data Visualisations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +34,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-70d37b45c5086134dc26dbb10e888fc0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -94,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"> </span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">about</span></a>
   </li>  
   <li class="nav-item">
@@ -138,37 +139,38 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-broadside column-page">
-  <div class="about-main">
-    <div class="about-entity" style="background-image: url('images/shandiya.png')"></div>
-    <div class="about-contents"><header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Shandiya Balasubramaniam</h1>
+<h1 class="title">Data Visualisations</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+  
+    
   </div>
-</header><main class="content" id="quarto-document-content">
-<p>I’m a biodiversity data scientist with a background in evolutionary ecology and conservation biology. In my current role as Decision Support Program Lead at the Atlas of Living Australia, I focus on streamlining reproducible workflows for accessing and analysing open biodiversity data. When I’m not coding or birdwatching, I enjoy creating art in R.</p>
-<section id="experience" class="level3">
-<h3 data-anchor-id="experience">Experience</h3>
-<p><strong>Research and Conservation Committee Member</strong>, BirdLife Australia (2025-present)</p>
-<p><strong>Decision Suport Lead &amp; Data Analyst</strong>, Atlas of Living Australia, CSIRO (2022-present)</p>
-<p><strong>Board Observer</strong>, The Observership Program (2024)</p>
-<p><strong>Senior Geospatial Data Analyst</strong>, Environment Protection Authority Victoria (2021)</p>
-<p><strong>Associate Data Analyst</strong>, Environment Protection Authority Victoria (2020)</p>
-<p><strong>Ian Potter Biodiversity Research Fellow</strong>, Museums Victoria (2016-2020)</p>
-</section>
-<section id="education" class="level3">
-<h3 data-anchor-id="education">Education</h3>
-<p><strong>PhD</strong>, University of Melbourne (2016)</p>
-<p><strong>BSc (Hons)</strong>, University of Melbourne (2007)</p>
+  
+
+
+</header>
+
+
+<section id="world-parrot-day-2025" class="level3">
+<h3 class="anchored" data-anchor-id="world-parrot-day-2025">World Parrot Day 2025</h3>
+<p><img src="images/world_parrot_day.png" class="img-fluid"></p>
+<p>Each bird in the sky represents approximately 10,000 parrot records in the Atlas of Living Australia, and the hills in the foreground were formed by plotting frequency counts of records of three extinct parrot species over time. The colours of the birds in the sky represent the Environment Protection and Biodiversity Conservation (EPBC) status of species. To plot the shape of the flock of parrots, I experimented with different constant values in the Clifford attractor equations. The shape I chose was deliberately straggly, like the shapes of the flocks of corellas I often see (and take delight in) where I live.</p>
+<p>This piece was inspired by Andrea Garrec’s <a href="https://andreagarrec.myportfolio.com/murmurations">Murmurations</a>.</p>
+<p><a href="https://github.com/AtlasOfLivingAustralia/science/tree/main/comms/2025-05-31_world-parrot-day">View code</a></p>
 
 
 </section>
-</main></div>
-  </div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -189,6 +191,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

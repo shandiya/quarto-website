@@ -1,0 +1,13 @@
+---
+title: "Data Visualisations"
+---
+
+### World Parrot Day 2025
+
+![](images/world_parrot_day.png)
+  
+Each bird in the sky represents approximately 10,000 parrot records in the Atlas of Living Australia, and the hills in the foreground were formed by plotting frequency counts of records of three extinct parrot species over time. The colours of the birds in the sky represent the Environment Protection and Biodiversity Conservation (EPBC) status of species. To plot the shape of the flock of parrots, I experimented with different constant values in the Clifford attractor equations. The shape I chose was deliberately straggly, like the shapes of the flocks of corellas I often see (and take delight in) where I live.   
+
+This piece was inspired by Andrea Garrec's [Murmurations](https://andreagarrec.myportfolio.com/murmurations).
+
+[View code](https://github.com/AtlasOfLivingAustralia/science/tree/main/comms/2025-05-31_world-parrot-day)
