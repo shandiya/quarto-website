@@ -151,6 +151,7 @@ ul.task-list li input[type="checkbox"] {
 <p>I’m a biodiversity data scientist with a background in evolutionary ecology and conservation biology. In my current role as Decision Support Program Lead at the Atlas of Living Australia, I focus on streamlining reproducible workflows for accessing and analysing open biodiversity data. When I’m not coding or birdwatching, I enjoy creating art in R.</p>
 <section id="experience" class="level3">
 <h3 data-anchor-id="experience">Experience</h3>
+<p><strong>Research and Conservation Committee Member</strong>, BirdLife Australia (2025-present)</p>
 <p><strong>Decision Suport Lead &amp; Data Analyst</strong>, Atlas of Living Australia, CSIRO (2022-present)</p>
 <p><strong>Board Observer</strong>, The Observership Program (2024)</p>
 <p><strong>Senior Geospatial Data Analyst</strong>, Environment Protection Authority Victoria (2021)</p>
@@ -251,7 +252,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/shandiya\.com");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
