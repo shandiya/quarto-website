@@ -2,6 +2,23 @@
 title: "Data Visualisations"
 ---
 
+### National Tree Day 2025
+
+::: {layout-nrow=2}
+![](images/ash.png)
+
+![](images/fig.png)
+
+![](images/snowgum.png)
+
+![](images/redgum.png)
+:::
+
+Records added to the Atlas of Living Australia over the last 50 years (1976-2025) are visualised here as tree growth rings. In the way that a cross-section of a tree provides a snapshot of past environmental conditions, these rings provide an overview of fluctuations in numbers of records added each year. Darker colours and thicker rings indicate relatively more records were added that year, although I've taken a degree of artistic license and made the circumference of each ring slightly irregular to give it a more organic look. I chose to focus on four iconic Australian tree species for this visualisation: Mountain Ash (*Eucalyptus regnans*), Moreton Bay Fig (*Ficus macrophylla*), Snow Gum (*Eucalyptus pauciflora*), and River Red Gum (*Eucalyptus camaldulensis*). 
+
+[View code](https://github.com/AtlasOfLivingAustralia/science/tree/main/comms/2025-07-31_national_tree_day)
+
+
 ### World Parrot Day 2025
 
 ![](images/world_parrot_day.png)
