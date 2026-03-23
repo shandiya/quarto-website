@@ -160,6 +160,18 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="national-eucalypt-day-2026" class="level3">
+<h3 class="anchored" data-anchor-id="national-eucalypt-day-2026">National Eucalypt Day 2026</h3>
+<p><img src="images/national_eucalypt_day.png" class="img-fluid"></p>
+<p>A hundred years’ worth of eucalypt records in the Atlas of Living Australia (ALA) are summarised here (1926-2025).</p>
+<p>Ocean:<br>
+Each year is ploted along the horizontal x-axis, and each eucalypt species is plotted along the vertical y-axis. There are 35 eucalypt species represented here, each of which was the most frequently recorded species during at least one of those hundred years. Every ripple in the water shows the intersection of a species with a year: multiple ripples occurring within a row indicate that species was most-observed across many years, whereas a row with only one ripple means the species was the most-observed species in only one of the hundred years.</p>
+<p>Stars and moon:<br>
+The stars are plotted along the same x-axis and the y-axis represents number of records, so the positions show the relative number of records for the most-observed species in that year. The increasing upward trend towards the right of the image shows the overall increase in record numbers over the years. The crescent moon is a tiny sliver, here taking up only 5% of the area of a full circle. This represents the 5% of all plant records in the ALA that comprise eucalypt species.</p>
+<p>Hills:<br>
+The seven hills in the centre highlight the seven winning species of the <a href="https://eucalyptaustralia.org.au/eucalypt-of-the-year-2026/">Eucalypt of the Year</a> awards: <em>Corymbia ficifolia</em>, <em>Angophora costata</em>, <em>Eucalyptus regnans</em>, <em>Eucalyptus salubris</em>, <em>Eucalyptus erythrocorys</em>, <em>Eucalyptus pauciflora</em>, and <em>Eucalyptus camaldulensis</em>. The hills are density distributions of counts, so the shapes are determined by the spread of yearly records counts for each species. The colours of the hills are inspired by the bark of the snow gum, <em>E. pauciflora</em>, which has some of the most stunning multicoloured bark patterns.</p>
+<p><a href="https://github.com/AtlasOfLivingAustralia/science/tree/main/comms/2026-03-26_national-eucalypt-day">View code</a></p>
+</section>
 <section id="national-tree-day-2025" class="level3">
 <h3 class="anchored" data-anchor-id="national-tree-day-2025">National Tree Day 2025</h3>
 <div>
@@ -287,7 +299,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/shandiya\.com");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

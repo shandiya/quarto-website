@@ -16,4 +16,3 @@ title: "[Home]{.title-transp}"
   [Shandiya Balasubramaniam]{.title-right}  
   [Biodiversity Data Scientist]{.subtitle-right}
 :::
-
